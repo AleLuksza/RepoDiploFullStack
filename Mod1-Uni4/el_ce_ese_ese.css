@@ -1,0 +1,42 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    color: red;
+    background-color: black;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-shadow: 2px 2px 0 #333;
+}
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    /*background-color: rgb(100, 100, 100)*/;
+    /*el background color lo comenté para probar porqué el párrafo de la cajita no cambiaba de color*/
+}
+.destacados{
+    font-weight: bold;
+}
+#almafuerte{
+    width: 400px;
+    background-color: red;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    cursor: pointer;
+    border-radius: 15px;
+    rotate: 5deg;
+}
+#almafuerte p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#almafuerte:hover{
+    background-color: green;
+}
