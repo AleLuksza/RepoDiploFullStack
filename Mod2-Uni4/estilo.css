@@ -1,0 +1,25 @@
+#botonera {
+    display: flex;
+    background-color: gray;
+    border: solid 4px gray;
+    justify-content: space-around;
+    border-radius: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#contenedor_acordeones {
+    display: flexbox;
+    border: solid 3px black;
+    border-radius: 7px;
+}
+#latabla {
+    border: solid 4px black;
+    border-radius: 4px;
+    margin-top: 4px;
+}
+#marco_contenedor_fluido {
+    border: solid 3px black;
+    border-radius: 5px;
+    margin-top: 4px;
+}
