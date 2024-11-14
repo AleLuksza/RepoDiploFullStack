@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 40vh;
+}
+.CajaBotones {
+    display: inline-block;
+    border: none;
+    
+    
+}
+
+.colores {
+    display: inline-flex;
+
+}
+
+#purpura {
+    width: 150px;
+    height: 150px;
+    border: none;
+    background-color: purple;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#violeta {
+    width: 150px;
+    height: 150px;
+    border: none;
+    background-color: violet;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#rosa {
+    width: 150px;
+    height: 150px;
+    border: none;
+    background-color: pink;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.reseteo {
+    display: flex;
+    justify-content: center;
+    /*border: green 3px solid;*/
+    margin-bottom: 10px;
+}
+
+.reseteo button {
+    width: 100px;
+    cursor: pointer;
+}

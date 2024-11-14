@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.cont {
+    border: black 3px double;
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+#texto {
+    margin-left: 20px;
+    margin-right: 20px;
+}

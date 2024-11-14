@@ -176,3 +176,119 @@ footer i{
     background: rgb(113,109,109);
     background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);
 }
+
+.acacc  {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);;
+}
+
+.acasc {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);    
+}
+
+.acnsc {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%); 
+}
+
+.acncc {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);
+}
+
+.DoceCajaCarbono  {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);;
+}
+
+.DoceCuerdasNatural {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);    
+}
+
+.eacacc {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%); 
+}
+
+.GipsyJazz {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);
+}
+
+.TipoGodin {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);
+}
+
+.holder2 {
+    border: solid 3px black;
+    border-radius: 9px;
+    display: block;
+}
+.holder2 h3 {
+    color: black;
+    border-radius: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+.holder2 p{
+    color: black;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.holder2 ul{
+    font-size: 20px;
+}
+
+.holder3 {
+    border: solid 3px black;
+    border-radius: 9px;
+    display: flex;
+    
+}
+
+.holder3 p{
+    color: black;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.accesorios {
+    border: black solid 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.accesorios:hover{
+    border: grey;
+}
+
+.accesorios img:hover {
+    cursor: pointer;
+}
