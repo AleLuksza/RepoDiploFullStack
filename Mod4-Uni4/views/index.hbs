@@ -1,0 +1,14 @@
+<div class="contador">
+    <h1>{{title}}</h1>
+    {{#if contador}}
+    <p>Usaste {{aContar.length}} caracteres. (Contando los espacios) <a href="/salir">Salir</a></p>
+    {{/if}}
+
+    {{#unless contador}}
+    <p>Escribite algo y te digo cuantos caracteres usaste...</p>
+    <form action="/ingresar" method="post">
+        <input type="text" name="aContar"><button>Ingresar</button>
+    </form>
+
+    {{/unless}}
+</div>
