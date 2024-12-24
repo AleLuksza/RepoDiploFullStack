@@ -1,0 +1,15 @@
+SELECT nombre, trabajo FROM tabla_empleados;
+SELECT nombre, edad FROM tabla_empleados;
+SELECT nombre, edad FROM tabla_empleados WHERE trabajo = 'Programador';
+SELECT nombre, apellido FROM tabla_empleados WHERE edad > 30;
+SELECT apellido, mail FROM tabla_empleados WHERE nombre = 'Juan';
+SELECT nombre, trabajo FROM tabla_empleados WHERE trabajo = 'Programador' OR trabajo ='Desarrollador Web';
+SELECT id_emp, nombre, apellido, trabajo FROM tabla_empleados WHERE id_emp BETWEEN 15 AND 20;
+SELECT nombre, apellido FROM tabla_empleados WHERE trabajo = 'Programador' AND salario < 80000;
+SELECT nombre, apellido FROM tabla_empleados WHERE trabajo = 'Programador' AND salario BETWEEN 75000 AND 90000;
+SELECT nombre, apellido FROM tabla_empleados WHERE apellido LIKE 's%';
+SELECT nombre FROM tabla_empleados WHERE nombre LIKE '%i';
+INSERT INTO tabla_empleados VALUES (22, 'Francisco', 'Perez', 'Programador', 26, 90000, 'francisco@bignet.com');
+DELETE FROM tabla_empleados WHERE id_emp = 9;
+UPDATE tabla_empleados SET salario = 90000 WHERE id_emp = 14;
+SELECT * FROM tabla_empleados;
