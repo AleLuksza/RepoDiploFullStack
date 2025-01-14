@@ -1,0 +1,47 @@
+.holder p{
+    color: black;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.strato  {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);;
+}
+
+.tele {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);    
+}
+
+.lespaul {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%); 
+}
+
+.sg {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);
+}
+
+.flyingv {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);
+}
+
+.prs {
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);
+}

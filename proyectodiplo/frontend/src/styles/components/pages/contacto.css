@@ -1,0 +1,80 @@
+.contacto {
+    display: flex;
+    gap: 24px;
+    margin-left: 390px;
+    
+}
+
+.elform {
+    border: solid 3px black;
+    background-color: rgb(201, 183, 183);
+}
+
+.contacto div {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.otrasvias h2 {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.otrasvias {
+    background-color: grey;
+    border-radius: 6px;
+    margin-right: 380px;
+    border: solid 3px black;
+}
+
+.otrasvias p {
+    font: size 20px;     
+}
+.otrasvias ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.otrasvias ul li {
+    font-size: 20px;
+    background-color: grey;
+}
+
+
+.formulario p {
+    display: flex;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.formulario p label {
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 160px;
+    width: 171px;
+}
+
+.formulario input[type="submit"] {
+    background: lightcyan;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: black;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: rgb(194, 194, 194);
+}

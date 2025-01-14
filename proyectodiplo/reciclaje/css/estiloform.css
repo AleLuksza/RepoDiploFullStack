@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorform {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px white;
+    background-color: darkgray;
+    margin-top: 30vh;
+    width: 450px;
+    justify-items: center;
+    border-radius: 10px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#tituloform {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+label {
+   /* margin-left: 20px;
+    margin-right: 20px;*/
+}
+
+#nombre, #correo, #telefono, #mensaje {
+    /*margin-left: 20px;
+    margin-right: 20px;*/
+}
+
+#boton {
+    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+} 

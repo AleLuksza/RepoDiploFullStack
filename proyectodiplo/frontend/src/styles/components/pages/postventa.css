@@ -1,0 +1,32 @@
+.holder2 {
+    border: solid 3px black;
+    border-radius: 9px;
+    display: block;
+    align-items: center ;
+}
+.holder2 h3 {
+    color: black;
+    border-radius: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+.holder2 p{
+    color: black;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.holder2 ul{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    border: solid 3px black;
+    border-radius: 5px;
+}
+
+.holder2 ul li {
+    margin-bottom: 5px;
+}

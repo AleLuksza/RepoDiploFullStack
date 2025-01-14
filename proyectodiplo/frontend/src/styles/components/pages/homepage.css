@@ -1,0 +1,37 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside{
+    flex: 25%;
+    /*height: 400px;*/
+    background-color: rgb(105, 105, 105);
+}
+
+aside p{
+    margin: 10px;
+    font-size: 20px;
+}
+
+aside h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.main{
+    flex: 75%;
+    height: 400px;
+    background-color: rgb(198, 194, 194);
+}
+
+.main h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;    
+}
+
+.main p{
+    margin: 10px;
+    font-size: 20px;
+
+}

@@ -1,0 +1,33 @@
+.holder3 {
+    border: solid 3px black;
+    border-radius: 9px;
+    display: flex;
+    
+}
+
+.holder3 p{
+    color: black;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.accesorios {
+    border: black solid 3px;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+.accesorios:hover{
+    border: grey;
+}
+
+.accesorios img:hover {
+    cursor: pointer;
+}
+
+.accesorios img {
+    border: solid 5px grey;
+}

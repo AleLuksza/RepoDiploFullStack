@@ -1,0 +1,46 @@
+.holder {
+    border: solid 3px black;
+    border-radius: 9px;
+    display: block;
+}
+.holder h3 {
+    color: black;
+    border-radius: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+.holder p{
+    color: black;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.acacc  {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);;
+}
+
+.acasc {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);    
+}
+
+.acnsc {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%); 
+}
+
+.acncc {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);
+}

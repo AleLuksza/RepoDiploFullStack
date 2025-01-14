@@ -1,0 +1,20 @@
+footer {
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    /*width: 100%;*/
+    margin-top: 4px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 30px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+footer i {
+    margin-left: 10px;
+    margin-top: 3px;
+}
