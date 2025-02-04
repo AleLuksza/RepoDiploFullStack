@@ -1,6 +1,4 @@
-img {
-    border-radius: 10px;
-}
+
 
 header {
     padding: 10px;
@@ -8,6 +6,23 @@ header {
     background-image: url(../../../../public/imagenes/backheader.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+
+/* Ajustes para la imagen de fondo */
+header .holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header img {
+    border-radius: 10px;
+    max-width: 100%;  /* La imagen nunca será más grande que su contenedor */
+    height: auto;     /* Mantiene la relación de aspecto */
+    width: 80%;       /* Ajusta el tamaño del logo */
+    max-width: 200px; /* Controla el tamaño máximo en pantallas grandes */
 }
 
 header h1 {
@@ -15,7 +30,6 @@ header h1 {
     margin: 0 0 20px;
     font-family: "Bebas Neue", serif;
     font-weight: 400;
-    font-style: normal;
 }
 
 header h2 {
@@ -31,4 +45,41 @@ header div {
     padding: 7px;
     border-radius: 12px;
     color: white;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    /* Cambios en el header para pantallas pequeñas */
+    header h1 {
+        font-size: 30px; /* Reducimos el tamaño de la fuente del título */
+    }
+
+    header h2 {
+        font-size: 18px; /* Ajustamos el tamaño de la fuente del subtítulo */
+    }
+
+    header img {
+        width: 60%;  /* Hacemos el logo más pequeño en pantallas pequeñas */
+        max-width: 150px; /* Controlamos el tamaño máximo en pantallas pequeñas */
+    }
+
+    header div {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajustes para dispositivos aún más pequeños */
+    header h1 {
+        font-size: 24px; /* Título más pequeño en pantallas muy pequeñas */
+    }
+
+    header h2 {
+        font-size: 16px; /* Subtítulo más pequeño */
+    }
+
+    header img {
+        width: 50%; /* Logo más pequeño en pantallas muy pequeñas */
+        max-width: 120px;
+    }
 }

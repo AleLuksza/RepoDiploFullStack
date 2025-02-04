@@ -26,7 +26,7 @@ const HomePage = (props) => {
                 descuentos en accesorios,
                 cuerdas, púas y otros beneficios que incluyen talleres de luthiería y clínicas de guitarras dictadas por
                 nuestros profesionales
-                asi como por celebridades del mundo de la guitarra.
+                así como por celebridades del mundo de la guitarra.
                 No lo dudes, somos la mejor opción para soluciones integrales en lo que a guitarras respecta.
             </p>
         </section>
@@ -41,7 +41,7 @@ const HomePage = (props) => {
                 renombre mundial
                 y que aborda la sonoridad idonea de distintos géneros teniendo como clientes a grandes exponentes del
                 Jazz, Rock, Metal e incluso
-                Folklore a partrir de la incursión exitosa en la fabricacion de guitarras acústicas y electroacústicas
+                Folklore a partir de la incursión exitosa en la fabricación de guitarras acústicas y electroacústicas
                 con cuerdas de nylon.</p>
         </aside>
     </div>

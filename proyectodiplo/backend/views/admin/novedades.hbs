@@ -1,5 +1,68 @@
-<div class="container"></div>
+<div class="container">
     {{!--fila 1 --}}
     <div class="row">
-        <p class="text-end">Hola {{persona}}! <a class="btn btn-danger" href="/admin/login/logout">Cerrar sesion <i class="fas fa-sign-out-alt"></i></a></p>
+        <p class="text-end">Hola {{persona}}! <a class="btn btn-danger" href="/admin/login/logout">Cerrar sesion <i
+                    class="fas fa-sign-out-alt"></i></a></p>
     </div>
+
+    <div class="row">
+        <div class="col-7">
+            <h3>Listado de novedades</h3>
+        </div>
+        <div class="col-5 text-end">
+            <a class="btn btn-success" href="/admin/novedades/agregar"><i class="fa fa-plus"
+                    aria-hidden="true"></i>Nuevo</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <table class="table">
+                <thead>
+                    <tr class="table-dark">
+                        <th scope="col">#</th>
+                        <th scope="col">Titulo</th>
+                        <th scope="col">Imagen</th>
+                        <th class="text-end" scope="col">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each novedades}}
+                    <tr>
+                        <th scope="row">{{id}}</th>
+                        <td>{{titulo}}</td>
+                        <td>{{{imagen}}}</td>
+                        <td class="text-end">
+                            <!--<a class="btn btn-secondary" href="/admin/novedades/modificar/{{id}}"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                            <a class="btn btn-secondary" href="/admin/novedades/eliminar/{{id}}"><i class="fa fa-trash"
+                                    aria-hidden="true"></i></a>-->
+                        <td class="text-end">
+                            <a class="btn btn-secondary" href="/admin/novedades/modificar/{{id}}"><i
+                                    class="fa fa-pencil" aria-hidden="true"></i></a>
+                            <a class="btn btn-secondary" href="javascript:void(0);" onclick="confirmDelete({{id}})"><i
+                                    class="fa fa-trash" aria-hidden="true"></i></a>
+                        </td>
+
+                        </td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    function confirmDelete(id) {
+        // Mostrar cuadro de confirmación
+        const confirmacion = window.confirm("¿Estás seguro de que quieres eliminar esta novedad?");
+        
+        // Si el usuario confirma, redirigir a la ruta de eliminación
+        if (confirmacion) {
+            window.location.href = `/admin/novedades/eliminar/${id}`;
+        } else {
+            console.log("Eliminación cancelada");
+        }
+    }
+</script>
+

@@ -3,18 +3,54 @@ footer {
     display: flex;
     color: white;
     justify-content: center;
-    /*width: 100%;*/
     margin-top: 4px;
     text-align: center;
+    border-radius: 6px;
+    padding: 20px 10px;
 }
 
 footer p {
-    font-size: 30px;
-    margin-top: 3px;
+    font-size: 40px;
+    margin-top: 20pxpx;
     margin-left: 10px;
+    font-family: "Bebas Neue", serif;
+
 }
 
 footer i {
     margin-left: 10px;
     margin-top: 3px;
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;  /* Los elementos se apilan verticalmente */
+        padding: 15px 5px;       /* Reducir el padding */
+    }
+
+    footer p {
+        font-size: 28px;  /* Reducir el tamaño de la fuente del texto */
+        margin: 10px 0;    /* Ajustar los márgenes */
+    }
+
+    footer i {
+        font-size: 18px; /* Reducir el tamaño del ícono */
+        margin-top: 0;    /* Ajustar margen superior */
+    }
+}
+
+/* Media Query para pantallas muy pequeñas */
+@media (max-width: 480px) {
+    footer {
+        padding: 10px 5px;  /* Reducir aún más el padding */
+    }
+
+    footer p {
+        font-size: 20px;   /* Ajuste del tamaño de la fuente en pantallas pequeñas */
+    }
+
+    footer i {
+        font-size: 16px; /* Reducir aún más el tamaño del ícono */
+    }
 }

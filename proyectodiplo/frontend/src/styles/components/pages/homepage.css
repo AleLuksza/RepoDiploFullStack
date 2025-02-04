@@ -1,37 +1,61 @@
-.row{
+/* Sección general */
+.row {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -10px; /* Para añadir un espacio entre las columnas */
 }
 
-aside{
-    flex: 25%;
-    /*height: 400px;*/
+aside {
+    flex: 1;
     background-color: rgb(105, 105, 105);
+    padding: 20px; /* Añadí padding para que no quede pegado al borde */
+    box-sizing: border-box; /* Aseguramos que el padding no afecte el ancho */
+    border-radius: 10px; /* Bordes redondeados */
+    color: white; /* Mejor contrastar el color del texto */
 }
 
-aside p{
-    margin: 10px;
-    font-size: 20px;
-}
-
-aside h3{
+aside h3 {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;
+    font-size: 24px; /* Un tamaño más grande para los títulos */
+    margin: 10px 0;
 }
 
-.main{
-    flex: 75%;
-    height: 400px;
+aside p {
+    margin: 10px 0;
+    font-size: 16px; /* Ajusté el tamaño de la fuente */
+    padding-left: 10px;
+}
+
+/* Main */
+.main {
+    flex: 3;
     background-color: rgb(198, 194, 194);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 
-.main h2{
+.main h2 {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;    
+    margin: 10px 0;
+    font-size: 28px;
+    padding-left: 6px;
 }
 
-.main p{
-    margin: 10px;
-    font-size: 20px;
+.main p {
+    margin: 10px 0;
+    font-size: 16px;
+    padding-left: 6px;
+}
 
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column; /* Las columnas se apilan una sobre otra */
+    }
+
+    aside, .main {
+        flex: 1; /* Ambas ocuparán todo el ancho en pantallas pequeñas */
+        margin-bottom: 20px; /* Espacio entre las secciones */
+    }
 }

@@ -14,6 +14,7 @@ const Nav = (props) => {
                     <a><NavLink to="/electroacusticas" className={({ isActive }) => isActive ? "activo" : undefined}>Electroacusticas</NavLink></a>
                     <a><NavLink to="/accesorios" className={({ isActive }) => isActive ? "activo" : undefined}>Accesorios</NavLink></a>
                     <a><NavLink to="/postventa" className={({ isActive }) => isActive ? "activo" : undefined}>PostVenta</NavLink></a>
+                    <a><NavLink to="/novedades" className={({ isActive }) => isActive? "activo" : undefined}>Novedades</NavLink></a>
                     <a><NavLink to="/contacto" className={({ isActive }) => isActive ? "activo" : undefined}>Contacto</NavLink></a>
                 
                 </ul>

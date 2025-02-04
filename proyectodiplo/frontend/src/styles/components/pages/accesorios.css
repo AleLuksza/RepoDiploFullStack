@@ -1,33 +1,50 @@
+/* Contenedor principal */
 .holder3 {
     border: solid 3px black;
     border-radius: 9px;
     display: flex;
-    
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en múltiples líneas si es necesario */
+    justify-content: space-between; /* Asegura que haya espacio entre las columnas */
+    padding: 20px; /* Agrega algo de espacio alrededor */
+    box-sizing: border-box; /* Para que el padding no afecte el tamaño total */
+    min-height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la pantalla */
 }
 
-.holder3 p{
-    color: black;
-    border-radius: 3px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    margin: 20px;
-}
-
+/* Contenedor de cada accesorio */
 .accesorios {
-    border: black solid 3px;
-    display: flex;
-    justify-content: center;
+    flex: 1 1 30%; /* Establece que cada "accesorio" ocupe el 30% del contenedor */
+    margin: 10px; /* Espacio entre los elementos */
     background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra las imágenes y el texto */
+    justify-content: center;
+    border-radius: 6px;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
-.accesorios:hover{
-    border: grey;
+.accesorios img {
+    width: 100%; /* Hace que las imágenes ocupen el 100% del ancho disponible */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border: solid 5px grey;
+    transition: transform 0.3s ease;
 }
 
 .accesorios img:hover {
     cursor: pointer;
+    border: solid 2px black;
+    transform: scale(1.1); /* Suaviza el efecto al hacer hover */
 }
 
-.accesorios img {
-    border: solid 5px grey;
+/* Responsividad */
+@media (max-width: 768px) {
+    .holder3 {
+        flex-direction: column; /* En pantallas pequeñas, los elementos se apilan en una sola columna */
+    }
+
+    .accesorios {
+        flex: 1 1 100%; /* Los elementos ocuparán el 100% del ancho en pantallas pequeñas */
+        margin-bottom: 20px; /* Espacio entre los accesorios */
+    }
 }

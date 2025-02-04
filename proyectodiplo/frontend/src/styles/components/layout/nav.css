@@ -1,26 +1,64 @@
-ul {
+nav {
+    width: 100%;
+    box-sizing: border-box;
+    border-top: solid 3px white;
+    border-bottom: solid 3px white;
+}
+
+nav ul {
     display: flex;
     justify-content: space-evenly;
     background-color: grey;
     flex-direction: row;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
 }
 
-a{
+nav a {
     color: white;
-    padding: 15px 20px;
+    padding: 15px 10px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: gray ;
+    background-color: gray;
     border-radius: 6px;
     margin-top: 4px;
     margin-bottom: 4px;
+    font-family: "Michroma";
 }
 
 nav a:hover {
-    background-color: darkslategrey;
+    background-color: black;
 }
 
 nav a.activo {
-    background-color: darkslategrey;
+    background-color: rgb(0, 0, 0);
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Cambiar la disposición a columna */
+        align-items: center;    /* Centrar los elementos */
+    }
+
+    nav a {
+        padding: 10px 20px;     /* Reducir padding */
+        font-size: 16px;        /* Reducir tamaño de fuente */
+        margin-top: 5px;        /* Ajustar márgenes */
+    }
+}
+
+/* Media Query para pantallas muy pequeñas */
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;  /* Asegurarnos de que los enlaces estén en columna */
+        align-items: center;
+    }
+
+    nav a {
+        padding: 8px 15px;       /* Reducir aún más el tamaño de los enlaces */
+        font-size: 14px;         /* Reducir el tamaño de fuente */
+        margin-top: 3px;         /* Ajustar margen */
+    }
 }

@@ -2,19 +2,18 @@ var express = require('express');
 var router = express.Router();
 var usuariosModel = require('./../../models/usuariosModel');
 
-/* GET home page. */
 router.get('/', function (req, res, next) {
-  res.render('admin/login', { // login.hbs
-    layout: 'admin/layout',   // layout.hbs
+  res.render('admin/login', {
+    layout: 'admin/layout',
   });
 });
 
-router.get('/logout', function (req, res, next){
-  req.session.destroy();         // pimba para las variables de sesion
+router.get('/logout', function (req, res, next) {
+  req.session.destroy();
   res.render('admin/login', {
     layout: 'admin/layout'
   });
-}); // cierro logout de un buena vez...
+});
 
 router.post('/', async (req, res, next) => {
   try {
